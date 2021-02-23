@@ -1,0 +1,247 @@
+body {
+  background-image: linear-gradient(161deg, #93a134, #516676);
+  text-align: center;
+}
+
+h1 {
+  color: #4d524d;
+  font-size: 5rem;
+  font-family: 'Sanchez', serif;
+  text-shadow: 3px 0 #de8eb7;
+  text-align: center;
+  display:inline-block;
+}
+
+footer {
+  font-family: 'Noto Sans', sans-serif;
+  color: #f4f4f4;
+}
+
+.title {
+  color: #4d524d;
+  font-size: 5rem;
+  font-family: 'Sanchez', serif;
+  text-shadow: 3px 0 #de8eb7;
+  text-align: center;
+  display:inline-block;
+}
+
+.top-container {
+  margin: 100px auto auto;
+}
+.middle-container {
+  margin: 10px 10px;
+}
+
+.headwrap {
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+
+}
+
+.boyimg {
+  /*float: left;
+  */
+  position: absolute;
+  bottom: -70px;
+  animation: mymove 5s infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+.boy2img {
+  /*float: right;
+*/position: absolute;
+  top: -70px;
+  animation: mymove2 5s infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes mymove2 {
+  from {right: 0px;}
+  to {right: 200px;}
+}
+.a {
+  background-image: url("images/a.png");
+  background-repeat:no-repeat;
+
+}
+
+.b {
+  background-image: url("images/b.png");
+  background-repeat:no-repeat;
+}
+
+.c{
+  background-image: url("images/c.png");
+  background-repeat:no-repeat;
+}
+
+.d {
+  background-image: url("images/d.png");
+  background-repeat:no-repeat;
+}
+
+.e {
+  background-image: url("images/e.png");
+  background-repeat:no-repeat;
+}
+
+.f {
+  background-image: url("images/f.png");
+  background-repeat:no-repeat;
+}
+
+.g {
+  background-image: url("images/g.png");
+  background-repeat:no-repeat;
+}
+.h {
+  background-image: url("images/h.png");
+  background-repeat:no-repeat;
+}
+.i {
+  background-image: url("images/i.png");
+  background-repeat:no-repeat;
+}
+.j {
+  background-image: url("images/j.png");
+  background-repeat:no-repeat;
+}
+.k {
+  background-image: url("images/k.png");
+  background-repeat:no-repeat;
+}
+.l {
+  background-image: url("images/l.png");
+  background-repeat:no-repeat;
+}
+.m {
+  background-image: url("images/m.png");
+  background-repeat:no-repeat;
+}
+.n{
+  background-image: url("images/n.png");
+  background-repeat:no-repeat;
+}
+.o {
+  background-image: url("images/o.png");
+  background-repeat:no-repeat;
+}
+.p {
+  background-image: url("images/p.png");
+  background-repeat:no-repeat;
+}
+.q{
+  background-image: url("images/q.png");
+  background-repeat:no-repeat;
+}
+.r {
+  background-image: url("images/r.png");
+  background-repeat:no-repeat;
+}
+.s{
+  background-image: url("images/s.png");
+  background-repeat:no-repeat;
+}
+.t{
+  background-image: url("images/t.png");
+  background-repeat:no-repeat;
+}
+.u{
+  background-image: url("images/u.png");
+  background-repeat:no-repeat;
+}
+.v {
+  background-image: url("images/v.png");
+  background-repeat:no-repeat;
+}
+.w{
+  background-image: url("images/w.png");
+  background-repeat:no-repeat;
+}
+.x {
+  background-image: url("images/x.png");
+  background-repeat:no-repeat;
+}
+.y{
+  background-image: url("images/y.png");
+  background-repeat:no-repeat;
+}
+.z{
+  background-image: url("images/z.png");
+  background-repeat:no-repeat;
+}
+.alphabet {
+
+  width: 150px;
+  height: 150px;
+  border: 10px solid #bbdc73;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: 'Sanchez', serif;
+  color: #bb6692;
+  text-shadow: 3px 0 0 #7e7c70;
+  line-height: 2;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  outline: none;
+  transition: width 2s, height 2s, transform 2s opacity:0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+/*.alphabet:hover {
+  width:200px;
+  height:auto;
+  border: 10px solid #bbdc73;
+  border-radius: 15px;
+  text-align: center;
+}*/
+
+.pressed {
+  width:200px;
+  height:auto;
+  border: 10px solid #bbdc73;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 3px 4px #995f5f;
+  opacity: 0.4;
+
+  color: #fff;
+  transform: rotate(360deg);
+
+}
+
+.set{
+  margin: 10% auto;
+}
+
+@media(max-width: 1028px) {
+  .boyimg {
+    /*float: left;
+    */
+    position: relative;
+    top: 10px;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+  }
+  .boy2img {
+    /*float: right;
+  */position: relative;
+    top: 10px;
+    animation: mymove2 5s infinite;
+    animation-timing-function: ease;
+  }
+
+
+}
