@@ -1,2 +1,2 @@
 # Alphabetkit
-An interactive Alphabet kit which spells each alphabet on click.
+An interactive Alphabet kit which spells out each alphabet on click.
